@@ -1,7 +1,14 @@
-# rust-g
-
+# tgstation-rust-g
 rust-g (pronounced rusty-g) is a library which offloads certain expensive or difficult
 tasks from BYOND.
+
+----
+Scorpio Station used the tgstation version of the rust-g support library from
+its public opening on July 3rd, 2020 through November 21st, 2020.
+
+This repository was renamed from `rust-g` to `tgstation-rust-g` and set into
+read-only archival mode, as it is no longer being maintained.
+----
 
 This library is currently used in the [tgstation] codebase, and is required for it to run.
 A pre-compiled DLL version can be found in the repo root, but you can build your own from
@@ -89,7 +96,7 @@ cargo build --release --features dmi,file,log,url,http
 * hash: Faster replacement for `md5`, support for SHA-1, SHA-256, and SHA-512. Requires OpenSSL on Linux.
 * **log** (default): Faster log output.
 * url: Faster replacements for `url_encode` and `url_decode`.
-* http: HTTP client to allow `GET`, `POST`, `PUT`, `PATCH`, `DELETE` and `HEAD`. 
+* http: HTTP client to allow `GET`, `POST`, `PUT`, `PATCH`, `DELETE` and `HEAD`.
 
 ## Installing
 
