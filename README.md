@@ -1,14 +1,11 @@
 # tgstation-rust-g
+----
+## Scorpio Station used the tgstation version of the rust-g support library from its public opening on July 3rd, 2020 through November 21st, 2020.
+## This repository was renamed from `rust-g` to `tgstation-rust-g` and set into read-only archival mode, as it is no longer being maintained.
+----
+
 rust-g (pronounced rusty-g) is a library which offloads certain expensive or difficult
 tasks from BYOND.
-
-----
-Scorpio Station used the tgstation version of the rust-g support library from
-its public opening on July 3rd, 2020 through November 21st, 2020.
-
-This repository was renamed from `rust-g` to `tgstation-rust-g` and set into
-read-only archival mode, as it is no longer being maintained.
-----
 
 This library is currently used in the [tgstation] codebase, and is required for it to run.
 A pre-compiled DLL version can be found in the repo root, but you can build your own from
